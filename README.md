@@ -48,11 +48,11 @@ TorNetX provides a command-line interface for easy use. Here are the available o
    `--version` : Show the version number and exit.
 
 
-2. **Configure your browser's proxy settings**:  
+2. **Configure your browser's proxy settings**:
    Set your browser's proxy to **SOCKS5** with the following values:
    - **Host**: `127.0.0.1`
    - **Port**: `9050`
 
 <img alt="TorNetX" src="https://bytebreach.github.io/img/port.png" width="700"/>
-   
+
 This ensures your browser traffic is routed through the Tor network for anonymity.
