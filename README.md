@@ -12,7 +12,31 @@
 
 ## 📥 Installation
 
-- **For Windows / macOS / Linux:**
+1. **Install [Tor](https://www.torproject.org/fr/download/)**:
 
-  ```bash
-  pip install tornetx
+2. **Add `tor.exe` to the System Path : System's Environment Variables**:
+
+   (e.g., `C:\Program Files\Tor Browser\Browser\TorBrowser\Tor\tor.exe`)
+
+4. **Install [Python](https://www.python.org/downloads/) and pip**:
+
+5. **Install TorNetX**:
+
+   ```bash
+   pip install tornetx
+   ```
+
+## 🛠️ Usage
+
+TorNetX provides a command-line interface for easy use. Here are the available options:
+
+   ```bash
+   tornetx --interval <seconds> --count <number>
+```
+- `--interval` (optional) : Time in seconds between IP changes (default is 60 seconds).
+- `--count` (optional) : Nb of times to change the IP. If set to 0, the IP will be changed - indefinitely.
+- `--stop` (optional) : Stop all Tor services and TorNet processes and exit.
+- `--ip` (optional) : Display the current IP address and exit.
+- `--auto-fix` (optional) : Automatically fix issues (install/upgrade packages).
+- `--help` : Show the help message and exit.
+- `--version` : Show the version number and exit.
